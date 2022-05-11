@@ -2,9 +2,9 @@
   "product": "go-msi",
   "company": "mh-cbon",
   "license": "LICENSE",
-  "upgrade-code": "8615055C-D8E0-404C-93BE-441C503BA6F0",
+  "upgrade-code": "B3F55E32-21B1-41A6-9A4C-AE1F9D715DCC",
   "files": {
-    "guid": "378896D8-6749-4821-870A-44CBBB791D0C",
+    "guid": "EEBFF5BE-1CDD-4C70-B825-102B88B5F978",
     "items": [
       "go-msi.exe"
     ]
@@ -13,7 +13,7 @@
     "templates"
   ],
   "env": {
-    "guid": "0CB88C7F-85A7-4986-B6CE-1CAD5C17EA0E",
+    "guid": "A47A1AB6-65BF-4CA3-B067-2F847BB177C0",
     "vars": [
       {
         "name": "PATH",
@@ -26,21 +26,22 @@
     ]
   },
   "shortcuts": {
-    "guid": "6DAFD205-3D2D-43D7-BF78-33BFE8746D2A",
+    "guid": "FE408594-A7F4-4B7F-B89A-F90A9F44ED29",
     "items": [
       {
         "name": "go-msi",
         "description": "Easy msi pakage for Go",
         "target": "[INSTALLDIR]\\go-msi.exe",
         "wdir": "INSTALLDIR",
-        "arguments": ""
+        "arguments": "",
+        "icon": ""
       }
     ]
   },
   "choco": {
     "description": "Easy way to generate msi package for a Go project",
-    "project-url": "https://github.com/mh-cbon/go-msi",
+    "project-url": "https://github.com/diablozzc/go-msi",
     "tags": "generate go msi nuget",
-    "license-url": "https://github.com/mh-cbon/go-msi/blob/master/LICENSE"
+    "license-url": "https://github.com/diablozzc/go-msi/blob/master/LICENSE"
   }
 }

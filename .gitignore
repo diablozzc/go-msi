@@ -11,3 +11,5 @@
 /.glide/
 testing/vendor
 testing/hello/vendor
+.vscode
+*.exe

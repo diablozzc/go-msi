@@ -7,6 +7,9 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"strings"
+
+	"github.com/google/uuid"
 )
 
 // GetBinPath Find path of the current binary file on the file system
@@ -61,4 +64,8 @@ func Exec(w string, args ...string) (string, error) {
 	cmd := exec.Command(w, args...)
 	out, err := cmd.CombinedOutput()
 	return string(out), err
+}
+
+func NewUUID() string {
+	return strings.ToUpper(uuid.New().String())
 }
